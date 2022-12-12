@@ -1,0 +1,138 @@
+/* .App {
+  
+} */
+
+.navbar{
+  background: linear-gradient(180deg, #B8F5C6 0%, rgba(255, 252, 252, 0) 135.16%);
+  width: 100%;
+	height: 5rem;
+	display: flex;
+	gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.navbar .logo{
+  width: 100px;
+  height: 100px;
+  flex: 1;
+  margin:  0 10rem 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .search{
+  display: inline-block;
+  width: 25rem;
+  height: 1.6rem;
+  background-color: #DDE4DE;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+  margin: 0 5rem;
+  
+  box-shadow: 3px 3px 3px rgb(99, 99, 99);
+}
+
+.navbar .search .input{
+  flex: 1;
+  width: 85%;
+  background-color: #DDE4DE;
+  border: none;
+}
+
+.navbar .content div{
+  display: inline-block;
+  font-weight: bold;
+  justify-content: end;
+  padding-inline: 2rem;
+}
+
+.navbar .content div:hover{
+  transform:translateY(-3px);
+  cursor: pointer;
+  text-shadow: 2px 2px 2px #136031dd;
+}
+
+.navbar .contentlog div{
+  display: inline-block;
+  font-weight: bold;
+  justify-content: end;
+  padding-inline: 10rem;
+}
+
+.navbar .contentlog div:hover{
+  transform:translateY(-3px);
+  cursor: pointer;
+  text-shadow: 2px 2px 2px #136031dd;
+}
+
+.login, .signup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login div, .signup div{
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login .logo{
+  width: 150px;
+  height: 150px;
+}
+
+.login .inputgroup,.signup .inputgroup{
+  font-weight: 700;
+}
+
+.login .inputgroup .input,.signup .inputgroup .input{
+  width: 20rem;
+  height: 1.5rem;
+  padding-inline: 0.7rem;
+  border: 3px solid #000000;
+  border-radius: 0.8rem;
+}
+
+.login .button,.signup .button{
+  margin: 1rem 0 0 0 ;
+  border: outset #136031;
+  padding: 10px 30px 10px 30px;
+  background-color: #136031;
+  color: white;
+  font-weight: 600;
+  border-radius: 1rem;
+  font-size: 12px;
+}
+
+.login .button:active, .signup .button:active{
+  border: inset #136031;
+}
+
+.login span, .signup span{
+  color: #136031;
+  font-weight: bold;
+}
+
+.landingimage{
+  width: 100%;
+  pointer-events: none;
+  margin: 5rem 0;
+}
+
+.landing .new{
+  font-size: 6rem;
+  font-weight: bolder;
+  margin: 0 0 0 5rem;
+}
+
+.landing .footer{
+  background-color: #136031;
+  width: 100%;
+  height: 10rem;
+  margin: 10rem  0 0 0;
+}
